@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark  ">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/CA-Logo.png" width="50px" height="50px" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation" id="burgerButton">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#webDevSection">Web Developer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mobileDevSection">Mobile App</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#graphicDesignSection">Graphic Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#myStorySection">My Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="background">
+        <div class="container">
+
+            <div class="banner">
+                <img src="./assets/IMG_BW7038.jpg" width="150px" alt="" class="avatar">
+                <h1 class="text-center">Christopher Albanese</h1>
+                <p class="text-center">Front End Web Developer & Designer based in Orlando, FL</p>
+                <p class="text-center">Specializing in responsive design with a clean modern asthetic</p>
+
+
+            </div>
+        </div>
+        <div class="container" id="webDevSection">
+            <h2 class="text-center">Web Dev Portfolio</h2>
+            <hr>
+            <p>Here are some of my most recent projects</p>
+            <div class="row web-row">
+                <div class="col col-xs-4">
+                    <div class="card card1">
+                        <a href="http://www.RealEstateAcademyofOrlando.com" target="blank">
+                            <img src="./assets/rea.png" width="100%" alt="">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col col-xs-4">
+                    <div class="card card2">
+                        <a href="http://www.PeridotRealEstate.com" target="blank">
+                            <img src="./assets/peridot.jpg" width="100%" alt="">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col col-xs-4">
+                    <div class="card card3">
+                        <a href="http://www.AllFloridaRealEstateSchools.com" target="blank">
+                            <img src="./assets/afres.png" width="100%" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="mobileDevSection">
+            <div class="container">
+                <h2 class="text-center">iOS Mobile Developer</h2>
+                <hr>
+                <p>I created
+                    <a href="http://recalcapp.com" target="blank">
+                        <em>RE Calc Real Estate Calculator </em>
+                    </a> to assist real estate agents with some of the most common real estate math problems they face on a daily
+                    basis. </p>
+                <div class="row row-mobile">
+                    <div class="col ">
+
+                        <img src="./assets/ReCalcREASlider.png" alt="" width="100%" id="calcSlider">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="row app-cards">
+
+                    <div class="  col col-xs-6 app-card " id="appVid1">
+                        <video id="play1" width="100%" height="" muted poster="./assets/ReCalcScreenshotsScreen1.png" class="appScreens">
+                            <source src="./assets/calculatorDateCalc.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+
+                        <div class="positioner">
+                            <i class="fa fa-play-circle-o" id="icon1" aria-hidden="true"></i>
+                        </div>
+
+                        <h3 class="text-center">Math Calculator</h3>
+                    </div>
+
+                    <div class="  col col-xs-6 app-card " id="appVid2">
+                        <video id="play2" width="100%" height="" muted poster="./assets/ReCalcScreenshotsScreen2.png" class="appScreens">
+                            <source src="./assets/calculatorDateCalc.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+
+                        <div class="positioner">
+                            <i class="fa fa-play-circle-o" id="icon2" aria-hidden="true"></i>
+                        </div>
+
+                        <h3 class="text-center">Date Calculator</h3>
+
+                    </div>
+
+
+                    <div class="  col col-xs-6 app-card " id="appVid3">
+                        <video id="play3" width="100%" height="" muted poster="./assets/ReCalcScreenshotsScreen3.png" class="appScreens">
+                            <source src="./assets/mortgageCalc.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+
+                        <div class="positioner">
+                            <i class="fa fa-play-circle-o" id="icon3" aria-hidden="true"></i>
+                        </div>
+
+                        <h3 class="text-center">Mortgage Calculator</h3>
+                    </div>
+
+                    <div class="  col col-xs-6 app-card " id="appVid4">
+                        <video id="play4" width="100%" height="" muted poster="./assets/ReCalcScreenshotsScreen4.png" class="appScreens">
+                            <source src="./assets/ProrateCalc.mp4" type="video/mp4"> Your browser does not support the video tag.
+                        </video>
+
+                        <div class="positioner">
+                            <i class="fa fa-play-circle-o" id="icon4" aria-hidden="true"></i>
+                        </div>
+
+                        <h3 class="text-center">Prorate Calculator</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="graphicDesignSection">
+            <h2 class="text-center">Graphic Design</h2>
+            <hr>
+            <p>Great design is all about communication. You want your message to be compelling for sure but also visually stimulating
+                and aesthetically pleasing. I design my graphics to be memorable and to encourage the user to dig deeper
+                into the overall experience of the page. </p>
+            <p>Here are a few examples of my graphic design work. </p>
+
+            <div class="container-fluid">
+                <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="4000">
+                    <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                        <div class="carousel-item col-md-2 active">
+                            <img class="img-fluid mx-auto d-block" src="./assets//sliders/14HRCESlider.jpg" alt=" slide 1 ">
+                        </div>
+                        <div class="carousel-item col-md-2 col-sm-4 ">
+                            <img class="img-fluid mx-auto d-block " src="./assets/sliders/New Year.png " alt="slide 2 ">
+                        </div>
+                        <div class="carousel-item col-md-2 col-sm-4 ">
+                            <img class="img-fluid mx-auto d-block " src="./assets/sliders/Post-License-Class.png " alt="slide 3 ">
+                        </div>
+                        <div class="carousel-item col-md-2 col-sm-4 ">
+                            <img class="img-fluid mx-auto d-block " src="./assets/sliders/QuoteStairs.jpg" alt="slide 4 ">
+                        </div>
+                        <div class="carousel-item col-md-2 col-sm-4 ">
+                            <img class="img-fluid mx-auto d-block " src="./assets/sliders/StrtOnlnMBPR.jpg" alt="slide 5 ">
+                        </div>
+                        <div class="carousel-item col-md-2 col-sm-4 ">
+                            <img class="img-fluid mx-auto d-block " src="./assets/sliders/IRMAOrder.png" alt="slide 6 ">
+                        </div>
+                        <div class="carousel-item col-md-2 col-sm-4 ">
+                            <img class="img-fluid mx-auto d-block " src="./assets/sliders/YouCare.jpg" alt="slide 7 ">
+                        </div>
+                        <div class="carousel-item col-md-2 col-sm-4 ">
+                            <img class="img-fluid mx-auto d-block " src="./assets/sliders/ReCalcREASlider.png" alt="slide 7 ">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev " href="#carouselExample " role="button " data-slide="prev ">
+                        <i class="fa fa-chevron-left fa-lg text-muted "></i>
+                        <span class="sr-only ">Previous</span>
+                    </a>
+                    <a class="carousel-control-next text-faded " href="#carouselExample " role="button " data-slide="next ">
+                        <i class="fa fa-chevron-right fa-lg text-muted "></i>
+                        <span class="sr-only ">Next</span>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container ">
+            <div class=" " id="myStorySection ">
+                <img src="./assets/IMG_BW7038.jpg " width="150px " alt=" " class="avatar ">
+                <h2 class="text-center ">My Story</h2>
+                <hr>
+
+                <p> I’ve always been a mechanically inclined, have a need to know how things work and I’m not afraid to dive
+                    head first into complicated tasks. I first discovered my love of code when building a website for a real
+                    estate school where I worked. We needed a new website, but we didn’t have the budget to pay for what
+                    I envisioned. My solution was to do it myself. I knew that I could acquire the skills I needed with the
+                    help of the Internet and the knowledge that I don’t give up easily. Within 2 weeks I built the website,
+                    made it mobile responsive, SEO optimized and capable of handling ecommerce transactions. This gave me
+                    the confidence to pursue more complicated tasks. Next, I built a relational database with Filemaker to
+                    maintain student records and enrollments and later learned Swift to program a simple math calculator
+                    that I planned to use as a marketing piece. This simple calculator which you'll see
+                    <a href="#calcSlider">above</a> evolved into a full scale application that calculates not just math, but also date calculations,
+                    mortgage calculations and prorates. Building this application was an amazing opportunity to dig deep
+                    into modern programming techniques like working in an IDE, using external libraries, source control,
+                    developing an efficient UX/UI, testing and debugging code.
+                </p>
+
+                <p> My professional experience over that past 14 years has been in the real estate industry, where I am currently
+                    a REALTOR® and Associate Broker for Coldwell Banker. While it may seem that computer programming and
+                    real estate have little in common, I believe many skills translate easily. Preparing contracts must be
+                    done with precision and free of errors to withstand legal challenge. Marketing homes today rarely includes
+                    traditions of the past and favors new, highly technical means including social media, predictive analytics,
+                    listing syndication and ad retargeting. Even the sales cycle from contract negotiation to escrow closing
+                    requires careful communication between multiple channels with competing priorities. A strong willed dedication
+                    and ability to quickly solve problems is required to overcome the numerous conflicts that arise on a
+                    daily basis.
+                </p>
+
+                <h3>Self Taught Technical Training</h3>
+
+                <p>
+                    <strong>CodeAcademy.com:</strong> 41 Badges, Completed Learn HTML, Learn JavaScript, Learn the Command Line</p>
+
+                <p>
+                    <strong>FlatIronSchools.com:</strong> Intro to JavaScript </p>
+
+                <p>
+                    <strong>Lynda.com:</strong> iOS App Development: Essential Courses, Learning iOS 10 App Development, Computer
+                    Science Principles: Programming, Swift 3 Essential Training: The Basics, iOS Game Development with Swift
+                    3 and SpriteKit, Cocoa with Swift 3 Essential Training, Google Firebase for iOS: First Look, Xcode Developer
+                    Tools in iOS, Web Development Foundations: Full-Stack vs. Front-End</p>
+
+                <p>
+                    <strong>YouTube.com:</strong> I often use videos to see example code in action and to help understand the context
+                    of information I may find on other webpages through a generic Google search. </p>
+
+                <p>
+                    <strong>Stack Overflow:</strong> This is my go to source every time I hid a roadblock in a project I’m working
+                    on. While I usually start with a Google search, I seem to always end up here. </p>
+
+                <p>
+                    <strong>Podcasts:</strong> JavaScript Jabber, CodeNewbie, BaseCS Podcast, The RayWenderlich.com Podcast, Learn
+                    to Code With Me, SwiftCoders: Weekly Interviews </p>
+
+            </div>
+            <div>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer " id="footer ">
+        <h2 class="text-center ">contact me</h2>
+        <div class="row ">
+            <div class="footer-social-icons ">
+                <a href="https://twitter.com/albanesechris " target="blank ">
+                    <i class="fa fa-twitter "></i>
+                </a>
+                <a href="https://www.linkedin.com/in/christopheralbanesefl/ " target="blank ">
+                    <i class="fa fa-linkedin "></i>
+                </a>
+                <a href="https://github.com/REAOrlando " target="blank ">
+                    <i class="fa fa-github "></i>
+                </a>
+                <a href="mailto:Christopher@cafere.com ">
+                    <i class="fa fa-envelope "></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js " integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="
+                                anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js " integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4 "
+        crossorigin="anonymous "></script>
+    <script type="text/javascript " src="main.js "></script>
+</body>
+
+</html>

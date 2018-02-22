@@ -1,0 +1,471 @@
+body {
+  background: linear-gradient(
+    141deg,
+    rgba(84, 183, 178, 0.5) 0%,
+    rgba(90, 185, 220, 0.3) 51%,
+    #2cb5e8 75%
+  );
+
+  background-size: 100%;
+
+  /* background-image: url("/assets/working-791175.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+a:target {
+  padding-top: -120px;
+}
+.banner {
+  background: #ebf5ee;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(20, 20, 20, 0.2);
+}
+
+#myStorySection {
+  background: #ebf5ee;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(20, 20, 20, 0.2);
+  margin-top: 20px;
+}
+
+/* #appVid1 {
+    display: inline-block;
+  border: 1px solid;
+  position: absolute;
+
+} */
+
+.appCards {
+  border: 1px solid;
+  position: absolute;
+}
+.appScreens:hover {
+}
+
+.appCard {
+}
+
+#appVid1,
+#appVid2,
+#appVid3,
+#appVid4 {
+  cursor: pointer;
+}
+
+#appVid1 img {
+  display: block;
+}
+
+.positioner {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.fa-play-circle-o {
+  pointer-events: none;
+  font-size: 5em !important;
+  color: rgba(20, 20, 20, 0.4) !important;
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  width: 32px;
+  height: 32px;
+  /* text-shadow: 2px 2px 4px rgba(2, 2, 4, 0.2) !important; */
+}
+.appScreens,
+#calcSlider {
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(20, 20, 20, 0.2);
+  pointer-events: none;
+}
+.appScreens {
+  /* max-height: 200px; */
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.banner p:first-of-type {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+}
+.section1 {
+  background: rgb(234, 241, 241);
+}
+h1 {
+  font-family: "Russo One", sans-serif;
+  color: #283044;
+}
+
+strong {
+  font-weight: 900;
+  color: #283044;
+}
+
+h2 {
+  font-family: "Russo One", sans-serif;
+  color: #78a1bb;
+  font-size: 34px;
+  margin-left: 20px;
+}
+
+h3 {
+  font-family: "Russo One", sans-serif;
+  color: #8b786d;
+  font-size: 24px;
+  text-align: right;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(79, 79, 16);
+  margin: 0 20px;
+
+  padding-bottom: 15px;
+}
+
+.container-fluid p,
+h1,
+h2,
+h3 {
+  margin: 10px 40px 10px 40px;
+}
+
+.background {
+  background-color: rgba(245, 245, 245, 0.4);
+  margin: 0 60px 0 60px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid rgb(143, 142, 142);
+  box-shadow: 2px 2px 4px rgba(20, 20, 20, 0.2);
+  position: relative;
+  top: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #283044;
+  margin: 0 auto;
+}
+
+.navbar-collapse {
+  background: #283044;
+}
+
+.navbar-collapse .nav-link:hover {
+  color: white !important;
+  border: none;
+}
+
+.navbar-collapse .nav-item:hover {
+  color: white !important;
+  background-color: #78a1bb;
+  border-radius: 0px;
+}
+
+.nav-item {
+  border: 1px solid #283044;
+}
+.nav-item:hover {
+  border: 1px #78a1bb solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.nav-link {
+  color: white !important;
+  padding: 0px 5px;
+  margin: 10px;
+}
+.web-row {
+  align-items: stretch;
+}
+
+#WebDevSection {
+  margin: 20px;
+}
+#mobile1 {
+  background: url("assets/ReCalcREASlider.png");
+  background-size: cover;
+}
+/* .col-xs-12 .card{
+    margin: 20px 0;
+    width: 100%;
+} */
+
+.card {
+  /* height: 200px; */
+  max-height: 200px;
+  /* align-items: stretch; */
+
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(20, 20, 20, 0.2);
+}
+
+/* .col {
+  max-height: 200px;
+  align-items: stretch;
+  overflow: hidden;
+} */
+
+.app-cards {
+  /* max-height: 200px; */
+  overflow: hidden;
+}
+
+@media (min-width: 824px) and (max-width: 1058px) {
+  #appVid4 {
+    max-width: 300px;
+    margin: auto;
+  }
+  .positioner: 25%;
+}
+@media (max-width: 900px) {
+  .card {
+    /* height: 150px; */
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    /* height: 100px; */
+  }
+}
+
+.card-rea {
+  height: 200px;
+
+  color: #000;
+  background: url("assets/rea.png");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.card-recalc {
+  height: 200px;
+  background: url("assets/ReCalcREASlider.png");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.card-filemaker {
+  height: 200px;
+  background: url("assets/filemakerDB.png");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.card-mobile {
+  height: 200px;
+}
+.card-img {
+  display: block;
+  max-height: 500px;
+  max-width: 500px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-image {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.fa {
+  font-size: 30px;
+  color: white;
+  margin: 25px;
+}
+
+.footer-social-icons {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #283044;
+}
+
+.footer h2 {
+  margin-top: 0;
+}
+
+/* Carousel Styles */
+
+@media (min-width: 768px) {
+  /* show 3 items */
+  .carousel-inner .active,
+  .carousel-inner .active + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item,
+  .carousel-inner
+    .active
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-inner
+    .active
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    display: block;
+  }
+
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item,
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item,
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    transition: none;
+  }
+
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .carousel-inner
+    .active.carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -25%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item,
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
